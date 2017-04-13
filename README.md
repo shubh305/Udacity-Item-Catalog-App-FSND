@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 
 * Go to https://console.cloud.google.com/apis/credentials/oauthclient and setup Google OAuth API Credentials. 
 
-* Enter http://localhost:5000 in the Authorized JavaScript origins and http://localhost:5000/goauth2redirect in the Authorized redirect URIs.
+* Enter ```http://localhost:5000``` in the Authorized JavaScript origins and ```http://localhost:5000/goauth2redirect``` in the Authorized redirect URIs.
 
 * After saving, download and rename the file to ```g_client_secrets.json``` and replace that file in the project directory.
 
@@ -38,13 +38,13 @@ $ pip install -r requirements.txt
  
 * Go to https://developers.facebook.com/apps and setup a new app.
 
-* Add a new product "Facebook Login" and add http://localhost:5000 in the Valid OAuth redirect URIs.
+* Add a new product "Facebook Login" and add ```http://localhost:5000``` in the Valid OAuth redirect URIs.
 
 * Replace your Client id and secret in the ```fb_client_secret.json``` file.
 
 ## Instructions to run the project :-
 
-* Download the zip and extract or Clone the repository using ```$ git clone https://github.com/shubh305/Udacity-Item-Catalog-App-FSND.git```.
+* Download the zip and extract or Clone the repository using ```$ git clone https://github.com/shubh305/Udacity-Item-Catalog-App-FSND.git```
 
 * Place the downloaded/cloned folder inside vagrant directory.
 
