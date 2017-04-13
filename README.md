@@ -1,6 +1,8 @@
 # Udacity-Item-Catalog-App-FSND
 Item Catalog App Project in the Udacity Full stack web developer Nanodegree.
 
+### Live Demo - http://gamingcatalog.herokuapp.com
+
 ## Requirements :-
 
 * Python 2.7
@@ -24,7 +26,7 @@ $ pip install -r requirements.txt
 
 * Place the downloaded/cloned folder inside vagrant directory.
 
-## Google credentials file - 
+### Google credentials file - 
 
 * Go to https://console.cloud.google.com/apis/credentials/oauthclient and setup Google OAuth API Credentials. 
 
@@ -32,7 +34,7 @@ $ pip install -r requirements.txt
 
 * After saving, download and rename the file to ```g_client_secrets.json``` and replace that file in the project directory.
 
-## Facebook credentials file -
+### Facebook credentials file -
  
 * Go to https://developers.facebook.com/apps and setup a new app.
 
@@ -56,7 +58,7 @@ $ pip install -r requirements.txt
 
 * Open the browser and go to http://localhost:5000
 
-It is important you use *localhost* instead of *0.0.0.0* inside the URL address. That will prevent OAuth from failing.
+#### It is important you use *localhost* instead of *0.0.0.0* inside the URL address. That will prevent OAuth from failing.
 
 ## Access the JSON endpoint :-
 
