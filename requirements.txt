@@ -1,0 +1,9 @@
+apiclient==1.0.3
+Flask==0.12.1
+Flask-SeaSurf==0.2.2
+Flask-WTF==0.14.2
+google-api-python-client==1.6.2
+httplib2==0.10.3
+Jinja2==2.7.2
+oauth2client==4.0.0
+sqlalchemy==0.8.4
